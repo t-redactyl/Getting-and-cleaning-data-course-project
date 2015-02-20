@@ -4,213 +4,213 @@ Note that the script will produce two data.frames: 'unsum_data' and 'sum_data'. 
 
 ### Variables
 
-id 
+**id**
 * Integer representing the ID of each of the 30 participants.
 
- activity
- * Activity the participant was completing:
+**activity**
+* Activity the participant was completing:
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1 = Walking;
+2 = Walking upstairs;
+3 = Waling downstairs;
+4 = Sitting;
+5 = Standing;
+6 = Laying.
 
- **tBodyAcc-mean()-X**
- * Time, body acceleration, X direction - mean value
+**tBodyAcc-mean()-X**
+* Time, body acceleration, X direction - mean value
 
- **tBodyAcc-mean()-Y**
- * Time, body acceleration - Y direction - mean value       
+**tBodyAcc-mean()-Y**
+* Time, body acceleration - Y direction - mean value       
  
- **tBodyAcc-mean()-Z**
- * Time, body acceleration - Z direction - mean value
+**tBodyAcc-mean()-Z**
+* Time, body acceleration - Z direction - mean value
 
- **tBodyAcc-std()-X**
- * Time, body acceleration - X direction - standard deviation
+**tBodyAcc-std()-X**
+* Time, body acceleration - X direction - standard deviation
 
- **tBodyAcc-std()-Y**
- * Time, body acceleration - Y direction - standard deviation
+**tBodyAcc-std()-Y**
+* Time, body acceleration - Y direction - standard deviation
 
- **tBodyAcc-std()-Z**
- * Time, body acceleration - Z direction - standard deviation
+**tBodyAcc-std()-Z**
+* Time, body acceleration - Z direction - standard deviation
 
- **tGravityAcc-mean()-X**
- * Time, gravity acceleration, X direction - mean value
+**tGravityAcc-mean()-X**
+* Time, gravity acceleration, X direction - mean value
 
- **tGravityAcc-mean()-Y**
- * Time, gravity acceleration, Y direction - mean value
+**tGravityAcc-mean()-Y**
+* Time, gravity acceleration, Y direction - mean value
 
- **tGravityAcc-mean()-Z**
- * Time, gravity acceleration, Z direction - mean value
+**tGravityAcc-mean()-Z**
+* Time, gravity acceleration, Z direction - mean value
 
- **tGravityAcc-std()-X**
- * Time, gravity acceleration, X direction - standard deviation
+**tGravityAcc-std()-X**
+* Time, gravity acceleration, X direction - standard deviation
 
- **tGravityAcc-std()-Y**
- * Time, gravity acceleration, Y direction - standard deviation
+**tGravityAcc-std()-Y**
+* Time, gravity acceleration, Y direction - standard deviation
 
- **tGravityAcc-std()-Z**
- * Time, gravity acceleration, X direction - standard deviation
+**tGravityAcc-std()-Z**
+* Time, gravity acceleration, X direction - standard deviation
 
- **tBodyAccJerk-mean()-X**
- * Time, body acceleration jerk signal, X direction - mean value
+**tBodyAccJerk-mean()-X**
+* Time, body acceleration jerk signal, X direction - mean value
 
- **tBodyAccJerk-mean()-Y**
- * Time, body acceleration jerk signal, Y direction - mean value
+**tBodyAccJerk-mean()-Y**
+* Time, body acceleration jerk signal, Y direction - mean value
 
- **tBodyAccJerk-mean()-Z**
- * Time, body acceleration jerk signal, Z direction - mean value
+**tBodyAccJerk-mean()-Z**
+* Time, body acceleration jerk signal, Z direction - mean value
 
- **tBodyAccJerk-std()-X**
- * Time, body acceleration jerk signal, X direction - standard deviation
+**tBodyAccJerk-std()-X**
+* Time, body acceleration jerk signal, X direction - standard deviation
 
- **tBodyAccJerk-std()-Y**
- * Time, body acceleration jerk signal, Y direction - standard deviation
+**tBodyAccJerk-std()-Y**
+* Time, body acceleration jerk signal, Y direction - standard deviation
 
- **tBodyAccJerk-std()-Z**
- * Time, body acceleration jerk signal, Z direction - standard deviation
+**tBodyAccJerk-std()-Z**
+* Time, body acceleration jerk signal, Z direction - standard deviation
 
- **tBodyGyro-mean()-X**
- * Time, gyroscope signal, X direction - mean value
+**tBodyGyro-mean()-X**
+* Time, gyroscope signal, X direction - mean value
 
- **tBodyGyro-mean()-Y**
- * Time, gyroscope signal, Y direction - mean value
+**tBodyGyro-mean()-Y**
+* Time, gyroscope signal, Y direction - mean value
 
- **tBodyGyro-mean()-Z**
- * Time, gyroscope signal, Z direction - mean value
+**tBodyGyro-mean()-Z**
+* Time, gyroscope signal, Z direction - mean value
 
- **tBodyGyro-std()-X**
- * Time, gyroscope signal, X direction - standard deviation
+**tBodyGyro-std()-X**
+* Time, gyroscope signal, X direction - standard deviation
 
- **tBodyGyro-std()-Y**
- * Time, gyroscope signal, Y direction - standard deviation
+**tBodyGyro-std()-Y**
+* Time, gyroscope signal, Y direction - standard deviation
 
- **tBodyGyro-std()-Z**
- * Time, gyroscope signal, Z direction - standard deviation
+**tBodyGyro-std()-Z**
+* Time, gyroscope signal, Z direction - standard deviation
 
- **tBodyGyroJerk-mean()-X**
- * Time, gyroscope jerk signal, X direction - mean value
+**tBodyGyroJerk-mean()-X**
+* Time, gyroscope jerk signal, X direction - mean value
 
- **tBodyGyroJerk-mean()-Y**
- * Time, gyroscope jerk signal, Y direction - mean value
+**tBodyGyroJerk-mean()-Y**
+* Time, gyroscope jerk signal, Y direction - mean value
 
- **tBodyGyroJerk-mean()-Z**
- * Time, gyroscope jerk signal, Z direction - mean value
+**tBodyGyroJerk-mean()-Z**
+* Time, gyroscope jerk signal, Z direction - mean value
 
- **tBodyGyroJerk-std()-X**
- * Time, gyroscope jerk signal, X direction - standard deviation
+**tBodyGyroJerk-std()-X**
+* Time, gyroscope jerk signal, X direction - standard deviation
 
- **tBodyGyroJerk-std()-Y**
- * Time, gyroscope jerk signal, Y direction - standard deviation
+**tBodyGyroJerk-std()-Y**
+* Time, gyroscope jerk signal, Y direction - standard deviation
 
- **tBodyGyroJerk-std()-Z**
- * Time, gyroscope jerk signal, Z direction - standard deviation
+**tBodyGyroJerk-std()-Z**
+* Time, gyroscope jerk signal, Z direction - standard deviation
 
- **tBodyAccMag-mean()**
- * Time, body acceleration magnitude - mean value
+**tBodyAccMag-mean()**
+* Time, body acceleration magnitude - mean value
 
- **tBodyAccMag-std()**
- * Time, body acceleration magnitude - standard deviation
+**tBodyAccMag-std()**
+* Time, body acceleration magnitude - standard deviation
 
- **tGravityAccMag-mean()**
- * Time, gravity acceleration magnitude - mean value
+**tGravityAccMag-mean()**
+* Time, gravity acceleration magnitude - mean value
 
- **tGravityAccMag-std()**
- * Time, gravity acceleration magnitude - standard deviation
+**tGravityAccMag-std()**
+* Time, gravity acceleration magnitude - standard deviation
 
- **tBodyAccJerkMag-mean()**
- * Time, body acceleration jerk signal magnitude - mean value
+**tBodyAccJerkMag-mean()**
+* Time, body acceleration jerk signal magnitude - mean value
 
- **tBodyAccJerkMag-std()**
- * Time, body acceleration jerk signal magnitude - standard deviation
+**tBodyAccJerkMag-std()**
+* Time, body acceleration jerk signal magnitude - standard deviation
 
- **tBodyGyroMag-mean()**
- * Time, gyroscope signal magnitude - mean value
+**tBodyGyroMag-mean()**
+* Time, gyroscope signal magnitude - mean value
 
- **tBodyGyroMag-std()**
- * Time, gyroscope signal magnitude - standard deviation
+**tBodyGyroMag-std()**
+* Time, gyroscope signal magnitude - standard deviation
 
- **tBodyGyroJerkMag-mean()**
- * Time, gyroscope jerk signal magnitude - mean value
+**tBodyGyroJerkMag-mean()**
+* Time, gyroscope jerk signal magnitude - mean value
 
- **tBodyGyroJerkMag-std()**
- * Time, gyroscope jerk signal magnitude - standard deviation
+**tBodyGyroJerkMag-std()**
+* Time, gyroscope jerk signal magnitude - standard deviation
 
- **fBodyAcc-mean()-X**
- * Fast Fourier Transform, body acceleration, X direction - mean value
+**fBodyAcc-mean()-X**
+* Fast Fourier Transform, body acceleration, X direction - mean value
 
- **fBodyAcc-mean()-Y**
- * Fast Fourier Transform, body acceleration, Y direction - mean value
+**fBodyAcc-mean()-Y**
+* Fast Fourier Transform, body acceleration, Y direction - mean value
 
- **fBodyAcc-mean()-Z**
- * Fast Fourier Transform, body acceleration, Z direction - mean value
+**fBodyAcc-mean()-Z**
+* Fast Fourier Transform, body acceleration, Z direction - mean value
 
- **fBodyAcc-std()-X**
- * Fast Fourier Transform, body acceleration, X direction - standard deviation
+**fBodyAcc-std()-X**
+* Fast Fourier Transform, body acceleration, X direction - standard deviation
 
- **fBodyAcc-std()-Y**
- * Fast Fourier Transform, body acceleration, Y direction - standard deviation
+**fBodyAcc-std()-Y**
+* Fast Fourier Transform, body acceleration, Y direction - standard deviation
 
- **fBodyAcc-std()-Z**
- * Fast Fourier Transform, body acceleration, Z direction - standard deviation
+**fBodyAcc-std()-Z**
+* Fast Fourier Transform, body acceleration, Z direction - standard deviation
 
- **fBodyAccJerk-mean()-X**
- * Fast Fourier Transform, body acceleration jerk signal, X direction - mean value
+**fBodyAccJerk-mean()-X**
+* Fast Fourier Transform, body acceleration jerk signal, X direction - mean value
 
- **fBodyAccJerk-mean()-Y**
- * Fast Fourier Transform, body acceleration jerk signal, Y direction - mean value
+**fBodyAccJerk-mean()-Y**
+* Fast Fourier Transform, body acceleration jerk signal, Y direction - mean value
 
- **fBodyAccJerk-mean()-Z**
- * Fast Fourier Transform, body acceleration jerk signal, Z direction - mean value
+**fBodyAccJerk-mean()-Z**
+* Fast Fourier Transform, body acceleration jerk signal, Z direction - mean value
 
- **fBodyAccJerk-std()-X**
- * Fast Fourier Transform, body acceleration jerk signal, X direction - standard deviation
+**fBodyAccJerk-std()-X**
+* Fast Fourier Transform, body acceleration jerk signal, X direction - standard deviation
 
- **fBodyAccJerk-std()-Y**
- * Fast Fourier Transform, body acceleration jerk signal, Y direction - standard deviation
+**fBodyAccJerk-std()-Y**
+* Fast Fourier Transform, body acceleration jerk signal, Y direction - standard deviation
 
- **fBodyAccJerk-std()-Z**
- * Fast Fourier Transform, body acceleration jerk signal, Z direction - standard deviation
+**fBodyAccJerk-std()-Z**
+* Fast Fourier Transform, body acceleration jerk signal, Z direction - standard deviation
 
- **fBodyGyro-mean()-X**
- * Fast Fourier Transform, gyroscope signal, X direction - mean value
+**fBodyGyro-mean()-X**
+* Fast Fourier Transform, gyroscope signal, X direction - mean value
 
- **fBodyGyro-mean()-Y**
- * Fast Fourier Transform, gyroscope signal, Y direction - mean value
+**fBodyGyro-mean()-Y**
+* Fast Fourier Transform, gyroscope signal, Y direction - mean value
 
- **fBodyGyro-mean()-Z**
- * Fast Fourier Transform, gyroscope signal, Z direction - mean value 
+**fBodyGyro-mean()-Z**
+* Fast Fourier Transform, gyroscope signal, Z direction - mean value 
 
- **fBodyGyro-std()-X**
- * Fast Fourier Transform, gyroscope signal, X direction - standard deviation
+**fBodyGyro-std()-X**
+* Fast Fourier Transform, gyroscope signal, X direction - standard deviation
 
- **fBodyGyro-std()-Y**
- * Fast Fourier Transform, gyroscope signal, Y direction - standard deviation
+**fBodyGyro-std()-Y**
+* Fast Fourier Transform, gyroscope signal, Y direction - standard deviation
 
- **fBodyGyro-std()-Z**
- * Fast Fourier Transform, gyroscope signal, Z direction - standard deviation
+**fBodyGyro-std()-Z**
+* Fast Fourier Transform, gyroscope signal, Z direction - standard deviation
 
- **fBodyAccMag-mean()**
- * Fast Fourier Transform, body acceleration magnitude - mean value
+**fBodyAccMag-mean()**
+* Fast Fourier Transform, body acceleration magnitude - mean value
 
- **fBodyAccMag-std()**
- * Fast Fourier Transform, body acceleration magnitude - standard deviation
+**fBodyAccMag-std()**
+* Fast Fourier Transform, body acceleration magnitude - standard deviation
 
- **fBodyBodyAccJerkMag-mean()**
- * Fast Fourier Transform, body acceleration jerk signal magnitude - mean value
+**fBodyBodyAccJerkMag-mean()**
+* Fast Fourier Transform, body acceleration jerk signal magnitude - mean value
 
- **fBodyBodyAccJerkMag-std()**
- * Fast Fourier Transform, body acceleration jerk signal magnitude - standard deviation
+**fBodyBodyAccJerkMag-std()**
+* Fast Fourier Transform, body acceleration jerk signal magnitude - standard deviation
 
- **fBodyBodyGyroMag-mean()**
- * Fast Fourier Transform, gyroscope signal magnitude - mean value
+**fBodyBodyGyroMag-mean()**
+* Fast Fourier Transform, gyroscope signal magnitude - mean value
 
- **fBodyBodyGyroMag-std()**
- * Fast Fourier Transform, gyroscope signal magnitude - standard deviation
+**fBodyBodyGyroMag-std()**
+* Fast Fourier Transform, gyroscope signal magnitude - standard deviation
 
- **fBodyBodyGyroJerkMag-mean()**
- * Fast Fourier Transform, gyroscope jerk signal - mean value
+**fBodyBodyGyroJerkMag-mean()**
+* Fast Fourier Transform, gyroscope jerk signal - mean value
 
- **fBodyBodyGyroJerkMag-std()**
- * Fast Fourier Transform, gyroscope jerk signal - standard deviation
+**fBodyBodyGyroJerkMag-std()**
+* Fast Fourier Transform, gyroscope jerk signal - standard deviation
